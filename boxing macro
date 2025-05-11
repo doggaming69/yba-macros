@@ -1,0 +1,39 @@
+f4::suspend
+#If WinActive("ahk_exe RobloxPlayerBeta.exe")
+
+v::
+{
+Send, 1
+Sleep 30
+Send, v
+Sleep 30
+Send, 1
+}
+return
+b::
+{
+Send, 1
+Sleep 30
+Send, b
+Sleep 30
+Send, 1
+}
+return
+c::
+{
+Send, 1
+Sleep 30
+Send, c
+Sleep 30
+Send, 1
+}
+return
+Xbutton2::
+{
+Send, 1
+Sleep 30
+Send, j
+Sleep 30
+Send, 1
+}
+return
