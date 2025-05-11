@@ -1,0 +1,10 @@
+f6::suspend
+#If WinActive("ahk_exe RobloxPlayerBeta.exe")
+~z::
+    Sleep, 1000  
+    MouseMove, 2559, 0, 0
+    Send, {LButton down}
+    Sleep, 500
+    MouseMove, 1280, 720, 0
+    Send, {LButton up}
+return
